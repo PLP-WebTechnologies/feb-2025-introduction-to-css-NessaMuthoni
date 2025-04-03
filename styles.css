@@ -1,0 +1,57 @@
+/* Basic styling for the body */
+body {
+  font-family: "Arial", sans-serif; /* Changing the font */
+  background-color: #f4f4f9; /* Light background color */
+  color: #333; /* Text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #5f1152; /* Green background */
+  padding: 20px;
+  text-align: center;
+}
+
+h1.main-title {
+  color: white; /* Title color */
+  font-size: 36px; /* Font size */
+}
+
+/* Styling the content section */
+.content-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #e29adf; /* White background */
+  border: 1px solid #ddd; /* Light border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Paragraph styling */
+.intro-text {
+  font-size: 18px;
+  line-height: 1.6; /* Improving line spacing */
+  margin-bottom: 15px;
+}
+
+/* Styling the image */
+.styled-image {
+  width: 100%;
+  max-width: 300px; /* Maximum image width */
+  height: auto;
+  border-radius: 8px; /* Rounded corners */
+  margin-top: 20px; /* Space above the image */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #5f1152;
+  color: white;
+}
+
+footer .footer-text {
+  font-size: 14px;
+}
